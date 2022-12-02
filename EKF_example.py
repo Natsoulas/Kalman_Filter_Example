@@ -123,7 +123,7 @@ def ekf(z, update_number): # z is measurement
         #calculate NEW ESTIMATE       
         ekf.x = x_p + K.dot(residual)
         ekf.P = P_p - K.dot(ekf.H).dot(P_p)
-        return [ekf.x[0], ekf.x[1], ekf.P, ekf.x[2], ekf.x[3], K, residual];
+    return [ekf.x[0], ekf.x[1], ekf.P, ekf.x[2], ekf.x[3], K, residual];
 
 #TEST AND PLOTTING CODE BELOW
 #TEST CODE 
