@@ -4,7 +4,7 @@ Kalman_Filter_Example ---------------------------------
 Simple KF example with simplified dynamics and noise + error, good for reference, teaching, and as a template.
 Models for Kalman Filter and Extended Kalman Filter
 
-Proof these examples work:
+Proof these examples demonstrate working KF algorithm implementations:
 
 Kalman Filter for Position and Velocity Tracking
 
