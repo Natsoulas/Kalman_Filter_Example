@@ -32,5 +32,5 @@ Extended Kalman Figure Example ----------------------------
 
 ^these show that position error is mostly contained within 3-sigma (standard devations) for this example. Didn't spend time tuning Q matrix etc since this is just an example. However this code should be relatively easy to digest.
 
-Credit again to  Franklin's Book: A Kalman Filter Made Easy
+Credit is due to  Franklin's Book: A Kalman Filter Made Easy, highly recommend the read for those who want to learn how to use and have intution for using a KF in relativley little time.
 
